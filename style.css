@@ -1,0 +1,38 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    background-color: bisque;
+}
+
+h1 {
+    margin-left: 10rem;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    margin-left: 10rem;
+}
+
+#post {
+    width: 400px;
+}
+
+i {
+    cursor: pointer;
+}
+
+#post div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options {
+    display: flex;
+    gap: 25px;
+}
+
+#msg {
+    color: rgb(255, 0, 0);
+}
